@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Admin/Desktop/VinUni%20Datathon/mlruns/271395519751189761/18d024c83822498f9e99c6951ddfc94b/artifacts
+end_time: 1777285691316
+entry_point_name: ''
+experiment_id: '271395519751189761'
+lifecycle_stage: active
+run_id: 18d024c83822498f9e99c6951ddfc94b
+run_name: lgbm-tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777284415562
+status: 3
+tags: []
+user_id: Admin

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Admin/Desktop/VinUni%20Datathon/mlruns/271395519751189761/d6440b8b1a7044f8bdaf0088ad120ab1/artifacts
+end_time: 1777286308635
+entry_point_name: ''
+experiment_id: '271395519751189761'
+lifecycle_stage: active
+run_id: d6440b8b1a7044f8bdaf0088ad120ab1
+run_name: trial-001
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777285629361
+status: 3
+tags: []
+user_id: Admin

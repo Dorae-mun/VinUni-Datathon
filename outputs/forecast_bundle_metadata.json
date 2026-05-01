@@ -1,0 +1,28 @@
+{
+  "selected_model": "weighted_ensemble",
+  "candidate_weights": {
+    "revenue": {
+      "last_year_mapping": 0.0,
+      "day_of_year_profile": 0.0,
+      "calendar_profile": 0.0,
+      "recent_year_weighted": 0.6000000000000001,
+      "lgbm_calendar_only": 0.4
+    },
+    "cogs": {
+      "last_year_mapping": 0.0,
+      "day_of_year_profile": 0.0,
+      "calendar_profile": 0.0,
+      "recent_year_weighted": 0.6000000000000001,
+      "lgbm_calendar_only": 0.4
+    }
+  },
+  "sanity": {
+    "forecast_revenue_min": 675329.1760278398,
+    "forecast_revenue_max": 9395463.943193167,
+    "forecast_revenue_mean": 3096470.044486251,
+    "forecast_cogs_min": 551433.0774386239,
+    "forecast_cogs_max": 8546832.566793505,
+    "forecast_cogs_mean": 2642155.582521101,
+    "recent_revenue_p95_last_2y": 6189195.18
+  }
+}

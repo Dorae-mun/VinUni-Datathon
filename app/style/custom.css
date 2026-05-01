@@ -1,0 +1,55 @@
+
+
+[data-testid="stAppViewContainer"] {
+    height: 100vh !important;
+}
+
+/* ── Kéo main content sát mép trên ───────────────────────── */
+[data-testid="stHeader"] {
+    height: 0 !important;
+}
+
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+div[data-testid="stMainBlockContainer"] {
+    padding-top: 0.2rem !important;
+}
+
+/* ── Sidebar wrapper ───────────────────────── */
+section[data-testid="stSidebar"] {
+    height: 100vh !important;
+}
+
+/* ── Inner sidebar container (QUAN TRỌNG NHẤT) ───────────────────────── */
+section[data-testid="stSidebar"] > div {
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* ── Scroll area của sidebar ───────────────────────── */
+section[data-testid="stSidebar"] [data-testid="stSidebarContent"] {
+    flex: 1 !important;
+    overflow-y: auto !important;
+    height: 100vh !important;
+}
+
+/* ── Fix nav bị đẩy xuống ───────────────────────── */
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] {
+    flex-shrink: 0 !important;
+}
+
+/* ── Format chữ menu chuyển trang trong sidebar ───────────────────────── */
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a {
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+}
+
+/* ── Ẩn mục Main trong sidebar navigation ───────────────────────── */
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] ul li:first-child {
+    display: none !important;
+}
